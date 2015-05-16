@@ -16,11 +16,6 @@ build/
 
 # Deployment
 .venv/
-packages/
 logs/
 www/static/*
 !www/static/.htaccess
-
-# Django
-db.sqlite3
-local.py
