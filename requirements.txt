@@ -1,1 +1,2 @@
 Django==1.7.6
+django-unslashed==0.3.0

@@ -43,6 +43,7 @@ INSTALLED_APPS = (
 
 MIDDLEWARE_CLASSES = (
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "unslashed.middleware.RemoveSlashMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -102,6 +103,12 @@ STATICFILES_FINDERS = (
 TEMPLATE_DIRS = [
     os.path.join(BASE_DIR, "cheese", "templates"),
 ]
+
+
+# Miscellaneous options
+
+APPEND_SLASH = False
+REMOVE_SLASH = True
 
 
 # Bring in sensitive or non-portable settings from a non-versioned file
