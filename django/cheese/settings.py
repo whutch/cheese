@@ -1,6 +1,9 @@
+# -*- coding: utf-8 -*-
+"""Django settings."""
+# Part of Cheese (https://github.com/whutch/cheese)
+# :copyright: (c) 2015 Will Hutcheson
+# :license: MIT (https://github.com/whutch/cheese/blob/master/LICENSE.txt)
 """
-Django settings for cheese project.
-
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
 
